@@ -62,7 +62,3 @@ def main():
                     subtitle_download(file_path)
         else:
             subtitle_download(path)
-
-
-if __name__ == '__main__':
-    main()
