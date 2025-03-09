@@ -16,7 +16,7 @@ def get_hash(file_name):
         data += file.read(read_size)
     return hashlib.md5(data).hexdigest()
 
-def download_subtitle(file_path):
+def download_subtitle_enhanced(file_path):
     """Download subtitles for a given video file."""
     try:
         base_name, ext = os.path.splitext(file_path)
