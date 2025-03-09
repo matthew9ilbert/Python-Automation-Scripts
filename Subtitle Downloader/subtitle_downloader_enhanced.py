@@ -59,9 +59,9 @@ def main():
             for dirpath, _, filenames in os.walk(path):
                 for filename in filenames:
                     file_path = os.path.join(dirpath, filename)
-                    download_subtitle(file_path)
+                  download_subtitle_enhanced(file_path)
         else:
-            download_subtitle(path)
+            download_subtitle_enhanced(path)
 
 if __name__ == "__main__":
     main()
